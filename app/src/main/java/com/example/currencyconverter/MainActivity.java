@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
         String str = myTextField.getText().toString();
 
         Double amt = Double.valueOf(str) * 0.77;
-
-
-        //Toast.makeText(MainActivity.this, myTextField.getText().toString(), Toast.LENGTH_LONG).show();
+        
         goToActivity2(String.valueOf(amt));
     }
 
